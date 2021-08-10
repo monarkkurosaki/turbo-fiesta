@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-component">
+            <div class="nav-links">
+                <ul class="nav list">
+                    <a href="index.html"><li class="nav link">Home</li></a>
+                    <a href="gallery.html"><li class="nav link">Gallery</li></a>
+                    <a href="about.html"><li class="nav link">About Us</li></a>
+                    <a href="contact.html"><li class="nav link">Contact</li></a>
+                    <a href="resume.html"><li class="nav link">Resume</li></a>
+                </ul>
+            </div>
+            <div class="field">
+                <input type="text" class="search-box" placeholder="Search">
+                <a href="login.html" target="_blank"><button class="button"> Log In</button></a>
+            </div>
+        </div>
+    </nav>
+    <div class="base">
+        <div class="wrapper">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/lamp1.jpg" class="d-block w-100" alt="lamp1"> 
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/lamp2.jpg" class="d-block w-100" alt="lamp2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/lamp3.jpg" class="d-block w-100" alt="lamp3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="intro">
+                <h1 style="color: white;font-size: 50px;">The Perfect Lights for 2021</h1>
+                <p> 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Delectus maiores nemo enim doloribus. 
+                    Corrupti et deserunt quaerat, totam officia similique dolorem 
+                    id sunt aliquid eius aperiam omnis architecto modi ipsa.
+                </p>
+                <a href="gallery.html"><button class="button">Look around</button></a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+</body>
+</html>
